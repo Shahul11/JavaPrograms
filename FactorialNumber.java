@@ -3,6 +3,10 @@ package JavaPrograms;
 public class FactorialNumber {
 
 	public static void main(String[] args) {
+		itervativeMethod();
+	}
+
+	public static void itervativeMethod() {
 
 		int num = 5;
 		int fact = 1;
@@ -13,7 +17,5 @@ public class FactorialNumber {
 
 		}
 		System.out.println(fact);
-
 	}
-
 }
