@@ -6,7 +6,7 @@ public class MatrixMultiplication {
 		int a[][] = { { 1, 1, 1 }, { 2, 2, 2 }, { 3, 3, 3 } };
 		int b[][] = { { 1, 1, 1 }, { 2, 2, 2 }, { 3, 3, 3 } };
 
-		int c[][] = new int[3][3];
+		int c[][] = new int[a.length][b.length];
 
 		for (int i = 0; i < 3; i++) {
 

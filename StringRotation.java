@@ -13,6 +13,7 @@ public class StringRotation {
 			s1 = s1.concat(s1);
 			if (s1.indexOf(s2) != -1) {
 				System.out.println("String is rotated");
+				System.out.println(s1.indexOf(s2));
 			} else {
 				System.out.println("String is not rotated");
 			}

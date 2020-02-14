@@ -16,6 +16,7 @@ public class SeparateAlphabetsAndDigitsFromString {
 
 			if (Character.isDigit(ch)) {
 				number = number + ch;
+
 			}
 
 			else {

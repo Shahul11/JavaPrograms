@@ -31,6 +31,7 @@ public class Anagram {
 			char[] charArray2 = copyOfs2.toLowerCase().toCharArray();
 
 			Arrays.sort(charArray1);
+			
 			Arrays.sort(charArray2);
 			status = Arrays.equals(charArray1, charArray2);
 
